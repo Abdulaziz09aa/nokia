@@ -1,0 +1,57 @@
+.technos{
+    height: auto;
+    margin-top: 250px;
+}
+.technos h1{
+    width: 60%;
+    padding: 20px 20px;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.techno__products{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.techno__pro{
+    width: 385px;
+    height: auto;
+    margin: 20px 30px;
+}
+.techno__pro img{
+    width: 100%;
+    border-radius: 8px;
+}
+.techno__pro h3{
+    font-size: 25px;
+    font-weight: 100;
+}
+.techno__pro h3 span{
+    font-size: 25px;
+    color: blue;
+}
+
+@media screen and (max-width: 426px){
+    .technos h1{
+        font-size: 18px;
+        margin-left: 10px;
+    }
+}
+
+
+@media screen and (max-width: 426px){
+    .technos{
+        margin: 90px 0px;
+    }
+    .techno__products{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   
+    .techno__pro{
+        width: 90%;
+    }
+}

@@ -1,0 +1,48 @@
+.solutions{
+    height: auto;
+    margin-top: 250px;
+    background: url("../../assets/purple-blue-d.jpg") no-repeat center/cover;
+}
+.solutions h1{
+    width: 60%;
+    padding: 20px 20px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.solution__products{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.solution__pro{
+    width: 380px;
+    height: auto;
+    margin: 20px 30px;
+}
+.solution__pro img{
+    width: 100%;
+    border-radius: 8px;
+}
+.solution__pro h3{
+    font-size: 25px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 426px){
+    .solution{
+        margin: 90px 0px;
+    }
+    .solution__products{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   
+    .solution__pro{
+        width: 90%;
+    }
+}
