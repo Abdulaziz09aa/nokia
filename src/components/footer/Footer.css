@@ -151,9 +151,6 @@
 
 
 @media screen and (max-width: 416px){
-    .footer{
-        margin-top: 1800%;
-    }
     .footer__icon{
         display: grid;
         grid-template-columns: 1fr;
