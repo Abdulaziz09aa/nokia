@@ -6,34 +6,42 @@ function Solutions() {
 
     const data = [
         {
-            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2019-05/RS631_OI_Energy_03_HR_RGB-low.jpg",
+            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2023-06/490x260-midblue-01_92_2.jpg",
             title: "Energy"
         },
         {
-            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2020-11/Supply%20Chain%20and%20Logistics.jpg",
-            title: "Manufacturing and logistics"
+            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2023-06/public-safety_0.jpg",
+            title: "Manufacturing "
         },
         {
-            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2020-10/SR1904034629EN_images_public_sector_3840x1100.jpg",
+            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2023-06/nokia_telecomsaas_statement_of_vision_0.jpg",
             title: "Public sector"
         },
         {
-            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2019-05/OI_Trains_02_LR_RGB_1.jpg",
+            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2023-06/gettyimages-676914839_innotrans.jpg",
             title: "Transportation"
         },
         {
-            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2023-05/header-option1-1920x600.jpg",
-            title: "Research and Education Networks"
+            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2023-06/blog.png",
+            title: "Research and Edu"
         },
         {
-            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2022-10/25711_transform.jpg",
+            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2023-06/digitalfutures_0.jpg",
+            title: "More industries"
+        },
+        {
+            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2023-06/nokia_petrochem_glp_1920x1080_v1.jpg",
+            title: "More industries"
+        },
+        {
+            url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2023-06/nokia_petrochem_glp_1920x1080_v2-1.jpg",
             title: "More industries"
         },
     ]
 
   return (
     <div className='solutions'>
-        <h1>Explore our solutions for enterprises and government</h1>
+        <h1>Learn more</h1>
         <div className="solution__products">
             {
                 data?.map((item, inx)=> <div key={inx} className='solution__pro'>

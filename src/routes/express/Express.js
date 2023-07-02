@@ -4,10 +4,12 @@ import Enterpresses from '../../components/enterpresses/Enterpresses'
 import Degital from '../../components/degital/Degital'
 import Topic from '../../components/topic/Topic'
 import Meet from '../../components/meet/Meet'
-import Solutions from '../../components/solutions/Solutions'
 import Techno from '../../components/techno/Techno'
 import Insig from '../../components/insig/Insig'
 import Network from '../../components/network/Network'
+import Solutions from "../../components/solutions/Solutions"
+import News from '../../components/news/News'
+import Talk from '../../components/talk/Talk'
 
 function Express() {
   return (
@@ -16,10 +18,12 @@ function Express() {
         <Degital/>
         <Topic/>
         <Meet/>
-        <Solutions/>
         <Techno/>
         <Insig/>
         <Network/>
+        <Solutions/>
+        <News/>
+        <Talk/>
     </div>
   )
 }

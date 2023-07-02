@@ -1,7 +1,7 @@
 .meets{
     width: 100%;
     height: auto;
-    margin-top: -265%;
+    margin-top: 5%;
 }
 .meet{
     width: 100%;
@@ -21,7 +21,7 @@
     display: none;
 }
 .meet__product{
-    min-width: 400px;
+    min-width: 420px;
     height: 400px;
     margin-top: 20%;
     margin: 6.9% 20px; 
@@ -46,9 +46,9 @@
     color: gray;
 }
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 426px){
     .meets{
-        margin-top: -380%;
+        margin-top: -10%;
     }
     .meet__products{
         width: 100%;

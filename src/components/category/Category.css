@@ -21,9 +21,9 @@
 }
 .category__product{
     min-width: 350px;
-    height: 400px;
+    height: 380px;
     margin-top: 20%;
-    margin: 5% 20px; 
+    margin: 6% 20px; 
 }
 .category__product img{
     width: 100%;
@@ -32,9 +32,15 @@
 }
 
 @media screen and (max-width: 990px){
+    .category{
+        height: 650px;
+    }
     .category__products{
         width: 100%;
-        margin: -80px 20px;
+        margin: 40px 0px;
+    }
+    .category__product{
+        margin-top: 20px;
     }
     .category h1{
         font-size: 25px;

@@ -7,7 +7,7 @@ function Topic() {
     const data = [
         {
             url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2023-01/resrcid28211_gettyimages-1090918676-modernizing-the-worlds-mission-critical-operations.jpg",
-            title: "Modernizing the world’s most."
+            title: "Modernizing the  most."
         },
         {
             url: "https://www.nokia.com/sites/default/files/styles/c1_reference/public/2021-09/NOK0835-724x362px-image%20only.jpg",

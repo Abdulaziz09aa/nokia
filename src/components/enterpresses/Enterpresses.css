@@ -27,7 +27,7 @@
     height: 100%;
 }
 
-@media screen and (max-width: 426px){
+@media screen and (max-width: 416px){
     .enter__text{
         display: none;
     }
