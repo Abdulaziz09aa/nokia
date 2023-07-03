@@ -154,7 +154,7 @@
     .footer__icon{
         display: grid;
         grid-template-columns: 1fr;
-        margin: 20px -40%;
+        margin: 40px -40%;
     }
     .footer__il{
         display: grid;

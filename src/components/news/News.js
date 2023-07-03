@@ -1,12 +1,31 @@
-import React from "react";
+import React,  { useEffect, useState }  from "react";
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs"
 import { AiOutlineArrowRight } from "react-icons/ai"
 import "./News.css";
+import axios from '../../api'
+import { toast } from 'react-toastify'
 
 
 function News() {
 
-  const data = [
+  const [category, setCategory] = useState("")
+  const [data, setData] = useState()
+  const [reload, setReload] = useState(false)
+
+
+  useEffect(()=>{
+    axios.get("/blogs")
+      .then(res=> {
+        console.log(res.data)
+      setData(res.data.innerData)
+      })
+      .catch(err=> {
+        toast.error(err.response.data.msg)
+        console.log(err)}
+        )
+  }, [reload])
+
+  const pro = [
     {
       title: "ESB Networks and Sigma Wireless deploy national 4G/LTE private mobile network with Nokia in Ireland",
       desc: "1 Jun 2023"

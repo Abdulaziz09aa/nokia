@@ -20,12 +20,12 @@ function Navbar() {
                         <li className="navbar__li">Partners</li>
                         <li className="navbar__li">Insigths and research</li>
                         <li className="navbar__li">We are Nokia</li>
-                        <div className="navbar__local">
+                        <Link to={"/blog"} className="navbar__local">
                             <AiOutlineGlobal/>
-                        </div>
-                        <div className="navbar__search">
+                        </Link>
+                        <Link to={"/login"} className="navbar__search">
                             <FiSearch/>
-                        </div>
+                        </Link>
                     </ul>
                    
                     <div className='navbar_hello' onClick={() => {setNavActive((p) => p = !p )}}>

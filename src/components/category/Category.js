@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from 'react'
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs"
 import "./Category.css";
+import axios from '../../api'
+import { toast } from 'react-toastify'
 
 
-function Category() {
 
-  const data = [
+function Category({blogReload}) {
+  const [category, setCategory] = useState("")
+  const [data, setData] = useState()
+  const [reload, setReload] = useState(false)
+
+
+  useEffect(()=>{
+    axios.get("/products")
+      .then(res=> {
+        console.log(res.data)
+      setData(res.data.innerData)
+      })
+      .catch(err=> {
+        toast.error(err.response.data.msg)
+        console.log(err)}
+        )
+  }, [reload])
+
+
+  const pro = [
     {
       url: "https://www.nokia.com/sites/default/files/styles/scale_720_square/public/2023-06/metaverse-research-thumbnail_1.png.jpg",
       title: "Metaverse",

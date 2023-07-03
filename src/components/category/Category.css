@@ -33,11 +33,11 @@
 
 @media screen and (max-width: 990px){
     .category{
-        height: 650px;
+        height: 550px;
     }
     .category__products{
         width: 100%;
-        margin: 40px 0px;
+        margin: -40px 0px;
     }
     .category__product{
         margin-top: 20px;

@@ -4,6 +4,7 @@ import Express from './routes/express/Express';
 import Home from './routes/home/Home';
 import Footer from './components/footer/Footer';
 import { Routes, Route } from "react-router-dom"
+import Login from './routes/login/Login';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/express' element={<Express/>}/>
+        <Route path='/login' element={<Login/>}/>
       </Routes>
       <Footer/>
     </div>
